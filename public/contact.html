@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="../styles.css">
+    <style>
+        body{
+          
+            width: 100vw;
+            height: 100vh;
+        }
+        .container{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            background-color: antiquewhite;
+            
+        }
+        .card1{
+            width: 44%;
+            height: 40%;
+            border-radius: 1.3rem;
+            display: flex;
+            justify-content: space-between;
+            background-color:white;
+            box-shadow: rgb(33, 49, 24) 0px 20px 30px -10px;        }
+        .detail{
+            width: 50%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            padding: 2%;            
+            border-radius: 1.3rem;
+            line-height: ;
+
+
+        }
+        .imgcon{
+            width: 50%;
+            height: 100%;           
+            border-radius: 1.3rem;
+
+        } 
+        .imgcon img{
+            width: 100%;
+            height: 100%;            
+            border-top-right-radius: 1.3rem;
+            border-bottom-right-radius: 1.3rem;
+
+        }
+
+        .card2{
+            display: flex;
+            padding: 1.5rem;
+            width: 30%;
+            height: 60%;
+            border-radius: 1.3rem;
+            background-color: white;
+            box-shadow: rgb(33, 49, 24) 0px 20px 30px -10px;       
+         }
+
+        
+        .follow{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            font-size: large;
+            font-family:monospace;
+            
+        }
+        .follow_phone,.instagram{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            
+        }
+        .follow_phone img,.instagram img{
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="navcontainer">
+            <nav>
+            <ul id="navlist">
+                <li>
+                    <p id="brandname">Contact Us</p>
+                </li>
+                <li>
+                    <div id="navitem">
+                        <a href="../index.html">Home</a>
+                        <a href="../public/about.html">About</a>
+                        <a href="../public/contact.html">Contact</a>
+                    </div>
+                </li>
+            </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="container">
+        <div class="card1">
+            <div class="detail">
+                <div class="detail_heading">
+                    <h2>Contact Us:</h2>
+                </div>
+                <div class="detail_name">
+                    <label for="name"></label>
+                    <input type="text" id="name" placeholder="Your Name">
+                </div>
+                <div class="email">
+                    <label for="email"></label>
+                    <input type="email" name="email" id="email" placeholder="Email: eg-xyz@gmail.com">
+                </div>
+                <div class="detail_question">
+                    <textarea name="question" id="question"> Write Your question.</textarea>
+                </div>
+                <div class="detail_next">
+                    
+                    <label for="response"></label>
+                    <input type="button" value="Next Step:">
+                </div>
+            </div>
+            <div class="imgcon">
+                <img src="../assets/image.png" alt="image of customer support girl">
+
+            </div>
+        </div>
+        <div class="card2">
+            <div class="follow">
+                <div class="follow_heading">
+                    <h2>FOLLOW ON :</h2>
+                </div>
+                <div class="follow_phone">
+                    <div class="phone_img">
+                        <img src="../assets/logoimg/phone.png" alt="phone logo">
+                    </div>
+                    <div class="phoneno">
+                        +911249561834
+                    </div>
+                </div>
+                <div class="instagram">
+                    <div class="insta_img">
+                        <img src="../assets/logoimg/insta.png" alt="insta">
+                    </div>
+                    <div class="insta">
+                        <a href="https://www.instagram.com/noorishbynoor/">Follow on Instagram</a>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
